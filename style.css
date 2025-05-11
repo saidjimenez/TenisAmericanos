@@ -201,3 +201,41 @@ main section h2 {
 main section p {
     margin: 0;
 }
+/* Media Queries para dispositivos móviles */
+@media (max-width: 768px) {
+    .categories {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .category-card {
+        width: 90%;
+    }
+
+    .products {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .product {
+        width: 90%;
+    }
+
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav ul li {
+        margin: 5px 0;
+    }
+
+    footer {
+        padding: 0.5em 0;
+    }
+
+    main section {
+        width: 90%;
+        margin: 0 auto;
+    }
+}
